@@ -13,16 +13,16 @@ class School
     else
       roster[grade] << name
     end
+  end
     
-    def grade(grade)
-      roster[grade]
-    end
+  def grade(grade)
+    roster[grade]
+  end
     
-    def sort
-      roster.map do |grade, names|
-        names.sort
+  def sort
+    roster.map do |grade, names|
+      names.sort
     end
   end
-  
   
 end
