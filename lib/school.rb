@@ -5,5 +5,9 @@ class School
     @name = name
   end
   
+  def add_student
+    
+  end
+  
   
 end
