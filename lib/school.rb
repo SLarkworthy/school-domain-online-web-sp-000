@@ -20,7 +20,7 @@ class School
   end
     
   def sort
-    roster[grade] = []
+    roster[gr_ade] = []
     roster.each do |gr_ade, names|
       roster[gr_ade] << names.sort
     end
