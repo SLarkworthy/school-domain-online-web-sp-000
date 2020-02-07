@@ -19,12 +19,12 @@ class School
     roster[grade]
   end
     
-  # def sort
-  #   roster[grade] = []
-  #   roster.each do |gr_ade, names|
-  #     roster[gr_ade] << names.sort
-  #   end
-  #   roster
-  # end
+  def sort
+    roster[grade] = []
+    roster.each do |gr_ade, names|
+      roster[gr_ade] << names.sort
+    end
+    roster
+  end
   
 end
