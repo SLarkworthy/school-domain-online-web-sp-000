@@ -1,8 +1,9 @@
 class School
+  attr_accessor :name
+  
   def initalize(name)
     @name = name
   end
   
-  attr_accessor :name
   
 end
